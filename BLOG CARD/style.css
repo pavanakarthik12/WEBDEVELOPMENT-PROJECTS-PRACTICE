@@ -1,0 +1,36 @@
+body{
+    background-color:#f5d14f;
+}
+.card {
+    background-color: white;
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 10px 10px 0 rgba(0, 0, 0, 1);
+    width: 300px;
+    margin: 40px auto;
+}
+
+#img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 12px;
+    margin-bottom: 16px;
+}
+#learning {
+    background-color: #f5d14f;
+    font-weight: bold;
+    display: inline-block;
+    padding: 4px 8px;
+    border-radius: 8px;
+    font-size: 12px;
+    margin-bottom: 8px;
+  }
+  #publish{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+  }
+  #longtext{
+    display: inline;
+    font-weight: bolder;
+  }

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Netflix Clone</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"/>
+  <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+
+  <header class="navbar">
+    <div class="navbar-left">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/0/08/Netflix_2015_logo.svg" alt="Netflix Logo" class="logo"/>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">TV Shows</a></li>
+          <li><a href="#">Movies</a></li>
+          <li><a href="#">New & Popular</a></li>
+          <li><a href="#">My List</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="navbar-right">
+      <div class="search-box">
+        <i class="fas fa-search"></i>
+        <input type="text" placeholder="Search..." />
+      </div>
+      <div class="profile">
+        <i class="fas fa-bell"></i>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/0/0b/Netflix-avatar.png" alt="Profile" class="profile-icon"/>
+      </div>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="hero-content">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/7/77/Stranger_Things_logo.png" alt="Stranger Things" class="hero-logo"/>
+      <p class="hero-description">
+        When a young boy vanishes, a small town uncovers a mystery involving secret experiments, terrifying supernatural forces, and one strange little girl.
+      </p>
+      <div class="hero-buttons">
+        <button class="play-btn"><i class="fas fa-play"></i> Play</button>
+        <button class="info-btn"><i class="fas fa-info-circle"></i> More Info</button>
+      </div>
+    </div>
+  </section>
+
+  <main class="content">
+    <section class="category">
+      <h2 class="section-title">Popular on Netflix</h2>
+      <div class="row" id="popular-row"></div>
+    </section>
+
+    <section class="category">
+      <h2 class="section-title">Trending Now</h2>
+      <div class="row" id="trending-row"></div>
+    </section>
+
+    <section class="category">
+      <h2 class="section-title">Continue Watching</h2>
+      <div class="row" id="continue-row"></div>
+    </section>
+
+    <section class="category">
+      <h2 class="section-title">New Releases</h2>
+      <div class="row" id="new-releases-row"></div>
+    </section>
+
+    <section class="category">
+      <h2 class="section-title">Watch Again</h2>
+      <div class="row" id="watch-again-row"></div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
